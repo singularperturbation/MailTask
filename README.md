@@ -73,7 +73,7 @@ folders).
 ## Requirements
 1)  Python 2
 2)  FLTK / pyfltk
-3)  cPickle
+3)  cPickle (falls back to pickle if not found)
 4)  ???
 
 Anecdotal note about pyfltk: easiest way to get is to install with the Debian

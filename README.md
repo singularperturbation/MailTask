@@ -1,8 +1,8 @@
-#MailTask Alpha: The Email Manager
+# MailTask Alpha: The Email Manager
 
 ---
 
-##License Info (Copyright (C) 2015  Patrick Simmons)
+## License Info (Copyright (C) 2015  Patrick Simmons)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,12 +14,14 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License along with this 
+program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
+
 ---
 
 Note: The GPLv3 is in the LICENSE file.
 
+## Description
 
 Hello.  This set of programs is MailTask.  This is a brief document
 intending to familiarize users with how to use this program.
@@ -71,10 +73,10 @@ downloaded emails in these cases (contained in the `*/{INBOX,Sent}`
 folders).
 
 ## Requirements
-1)  Python 2
-2)  FLTK / pyfltk
-3)  cPickle (falls back to pickle if not found)
-4)  ???
+1)  Python 2  
+2)  FLTK / pyfltk  
+3)  cPickle (falls back to pickle if not found)  
+4)  ???  
 
 Anecdotal note about pyfltk: easiest way to get is to install with the Debian
 `python-fltk` package.  Using pip with a requirements.txt file with pyFltk
